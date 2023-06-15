@@ -75,7 +75,7 @@ var disableAllowBackup = (function () {
 })();
 
 module.exports = function (ctx) {
-    var Q = context.q;
+    var Q = ctx.q;
     fs = ctx.require("fs");
     path = ctx.require("path");
     elementtree = ctx.require("elementtree");
